@@ -34,3 +34,5 @@ print(fs.is_file(file))
 # Проверяем, является ли file директорией (результат - False).
 print(fs.is_directory(file))
 # False
+
+print(fs.get_name(file))
